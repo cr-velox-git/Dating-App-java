@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorOne">#303A4A</color>
+    <color name="colorTwo">@android:color/white</color>
+    <color name="colorThree">#332A2A</color>
+    <color name="colorFour">@android:color/white</color>
+    <color name="colorFive">@android:color/white</color>
+    <color name="colorSix">@android:color/white</color>
+    <color name="colorSeven">@android:color/white</color>
+    <color name="colorEight">@android:color/white</color>
+    <color name="colorNine">@android:color/white</color>
+    <color name="colorTen">#F9F9F9</color>
+
+    <color name="black_white">@android:color/white</color>
+    <color name="white_black">@android:color/black</color>
+
+    <color name="black">@android:color/black</color>
+
+    <color name="white">@android:color/white</color>
+</resources>

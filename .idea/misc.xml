@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/drawable/background_1.xml" value="0.22552083333333334" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/activity_main.xml" value="0.20353982300884957" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/activity_question.xml" value="0.209375" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/activity_second_auth.xml" value="0.209375" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/dialog_loading.xml" value="0.209375" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/fragment_container.xml" value="0.1" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/fragment_feed.xml" value="0.1" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/fragment_matching.xml" value="0.1" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/fragment_reel.xml" value="0.1" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/item_question.xml" value="0.209375" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/layout_no_internet.xml" value="0.33" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/layout_profile_cointainer.xml" value="0.1" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11614583333333334" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.11614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

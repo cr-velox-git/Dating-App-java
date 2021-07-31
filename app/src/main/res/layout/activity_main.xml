@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_1"
+    android:id="@+id/fragment_container"
+    >
+
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/chip_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cnb_menuResource="@menu/bottom_navigation_menu"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        app:cnb_radius="30dp"
+        app:cnb_iconSize="28dp"
+        app:cnb_orientationMode="horizontal"
+        android:elevation="8dp"
+        android:textAlignment="center"
+
+        />
+</RelativeLayout>

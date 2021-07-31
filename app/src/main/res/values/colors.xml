@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorOne">#AB80AD</color>//AMETHYST
+    <color name="colorTwo">#D5B8D8</color>//HYACINTH
+    <color name="colorThree">#F9F6E4</color>//LINEN
+    <color name="colorFour">#789FB5</color>//FROZEN
+    <color name="colorFive">#B6C7DD</color>//ICE
+    <color name="colorSix">#F26D85</color>//BARBIE
+    <color name="colorSeven">#F2A7CA</color>//HOT PINK
+    <color name="colorEight">#F7DCEA</color>//PASTEL
+    <color name="colorNine">#F0F0F2</color>//GREY
+    <color name="colorTen">#F9F9F9</color>//OFF WHITE
+
+    <color name="black_white">@android:color/black</color>
+    <color name="white_black">@android:color/white</color>
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+
+</resources>

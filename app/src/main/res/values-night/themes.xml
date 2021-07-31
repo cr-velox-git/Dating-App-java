@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SOCA" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorOne</item>
+        <item name="colorPrimaryDark">@color/colorOne</item>
+        <item name="colorAccent">@color/colorOne</item>
+    </style>
+
+    <style name="Login_signup" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorOne</item>
+        <item name="colorPrimaryDark">@color/colorOne</item>
+        <item name="colorAccent">#FF7F00</item>
+
+    </style>
+
+    <style name="main" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorSix</item>
+        <item name="colorPrimaryDark">@color/colorOne</item>
+        <item name="colorAccent">@color/black_white</item>
+
+    </style>
+</resources>
