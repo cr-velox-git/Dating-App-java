@@ -3,6 +3,7 @@ package com.silverphoenix.soca.fragment.reel;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.viewpager2.widget.ViewPager2;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,57 +11,31 @@ import android.view.ViewGroup;
 
 import com.silverphoenix.soca.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link ReelFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import java.util.ArrayList;
+import java.util.List;
+
 public class ReelFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public ReelFragment() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment ReelFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static ReelFragment newInstance(String param1, String param2) {
-        ReelFragment fragment = new ReelFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
+    private ViewPager2 videoViewPager;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_reel, container, false);
+        View view =  inflater.inflate(R.layout.fragment_reel, container, false);
+
+        videoViewPager = view.findViewById(R.id.videoViewPager);
+
+        List<ReelVideoModel> reelVideoList = new ArrayList<>();
+        reelVideoList.add(new ReelVideoModel("https://firebasestorage.googleapis.com/v0/b/caller-c99f5.appspot.com/o/video%2F8f45cc02d0b88d51e96b7f47de6ff8bd.mp4?alt=media&token=10b54803-a9f6-4863-9b98-37130f42ab93", "Video 1", "what is going on"));
+        reelVideoList.add(new ReelVideoModel("https://firebasestorage.googleapis.com/v0/b/caller-c99f5.appspot.com/o/video%2Fed698288d03f65668bdf379983169710.mp4?alt=media&token=8c98e16b-c74e-4f06-ac7a-57abd97fac5e", "Videoooo", "dude"));
+        reelVideoList.add(new ReelVideoModel("https://firebasestorage.googleapis.com/v0/b/caller-c99f5.appspot.com/o/video%2F8f45cc02d0b88d51e96b7f47de6ff8bd.mp4?alt=media&token=10b54803-a9f6-4863-9b98-37130f42ab93", "something like this", "comer here"));
+        reelVideoList.add(new ReelVideoModel("https://firebasestorage.googleapis.com/v0/b/caller-c99f5.appspot.com/o/video%2Fed698288d03f65668bdf379983169710.mp4?alt=media&token=8c98e16b-c74e-4f06-ac7a-57abd97fac5e", "probabily", ""));
+
+        ReelVideoAdapter adapter = new ReelVideoAdapter(reelVideoList);
+        videoViewPager.setAdapter(adapter);
+
+
+        return view;
     }
 }

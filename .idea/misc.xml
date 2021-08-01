@@ -10,15 +10,23 @@
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/activity_second_auth.xml" value="0.209375" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/activity_signup.xml" value="0.22" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/activity_upload_post.xml" value="0.25" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/dialog_loading.xml" value="0.209375" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/dialog_menu_options.xml" value="0.25" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/dialog_upload_options.xml" value="0.3008849557522124" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/fragment_container.xml" value="0.1" />
-        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/fragment_feed.xml" value="0.1" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/fragment_feed.xml" value="0.25" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/fragment_matching.xml" value="0.1" />
-        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/fragment_post_container.xml" value="0.1" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/fragment_reel.xml" value="0.1" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/item_question.xml" value="0.209375" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/item_upload.xml" value="0.209375" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/item_upload_feed_post.xml" value="0.9" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/item_upload_options.xml" value="0.44816053511705684" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/layout_no_internet.xml" value="0.33" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/layout_profile_cointainer.xml" value="0.1" />
+        <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/layout_profile_head.xml" value="0.22" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11614583333333334" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.11614583333333334" />
       </map>

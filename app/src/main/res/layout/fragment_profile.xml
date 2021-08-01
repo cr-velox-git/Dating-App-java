@@ -22,17 +22,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_weight="4"
+            android:layout_weight="10"
             android:text="user.name_backhodi"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/imageView19"
-            android:layout_width="wrap_content"
-            android:layout_height="45dp"
+            android:id="@+id/fp_upload_option"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_baseline_drag_indicator_24" />
+            android:padding="6dp"
+            android:src="@drawable/add_image" />
+
+        <ImageView
+            android:id="@+id/fp_menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="6dp"
+            android:layout_weight="1"
+            android:src="@drawable/menu_1" />
 
     </LinearLayout>
 
