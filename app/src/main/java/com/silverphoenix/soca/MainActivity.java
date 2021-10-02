@@ -7,6 +7,7 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import com.ismaeldivita.chipnavigation.ChipNavigationBar;
+import com.silverphoenix.soca.DBQuery.DBQueries;
 import com.silverphoenix.soca.fragment.chatLike.ContainerFragment;
 import com.silverphoenix.soca.fragment.feed.FeedFragment;
 import com.silverphoenix.soca.fragment.match.MatchingFragment;
@@ -56,4 +57,44 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        setFragment();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        setFragment();
+    }
+
+    private void setFragment(){
+        Fragment fragment = null;
+        switch (DBQueries.CURRENT_MAIN_FRAGMENT) {
+            case DBQueries.FEED_FRAGMENT:
+                fragment = new FeedFragment();
+                chipNavigationBar.setItemSelected(R.id.nav_feed,true);
+                break;
+            case DBQueries.REEL_FRAGMENT:
+                fragment = new ReelFragment();
+                chipNavigationBar.setItemSelected(R.id.nav_reels,true);
+                break;
+            case DBQueries.MATCH_FRAGMENT:
+                fragment = new MatchingFragment();
+                chipNavigationBar.setItemSelected(R.id.nav_matching,true);
+                break;
+            case DBQueries.CHAT_FRAGMENT:
+                fragment = new ContainerFragment();
+                chipNavigationBar.setItemSelected(R.id.nav_chats,true);
+                break;
+            case DBQueries.PROFILE_FRAGMENT:
+                fragment = new ProfileFragment();
+                chipNavigationBar.setItemSelected(R.id.nav_profile,true);
+                break;
+        }
+
+       // getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, fragment).commit();
+
+    }
 }

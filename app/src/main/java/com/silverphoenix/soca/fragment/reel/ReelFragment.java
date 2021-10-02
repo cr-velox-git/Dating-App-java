@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.silverphoenix.soca.DBQuery.DBQueries;
 import com.silverphoenix.soca.R;
 
 import java.util.ArrayList;
@@ -23,6 +24,7 @@ public class ReelFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view =  inflater.inflate(R.layout.fragment_reel, container, false);
+        DBQueries.CURRENT_MAIN_FRAGMENT = DBQueries.REEL_FRAGMENT;
 
         videoViewPager = view.findViewById(R.id.videoViewPager);
 

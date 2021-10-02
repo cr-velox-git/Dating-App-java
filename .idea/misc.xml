@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/StudioProjects/Dating-App-java/app/src/main/res/layout/activity_signup.xml" value="0.209375" />
+        <entry key="..\:/StudioProjects/Dating-App-java/app/src/main/res/layout/activity_upload_post.xml" value="0.209375" />
+        <entry key="..\:/StudioProjects/Dating-App-java/app/src/main/res/layout/fragment_profile.xml" value="0.19322916666666667" />
+        <entry key="..\:/StudioProjects/Dating-App-java/app/src/main/res/layout/layout_profile_cointainer.xml" value="0.19322916666666667" />
+        <entry key="..\:/StudioProjects/Dating-App-java/app/src/main/res/menu/profile_item_menu.xml" value="0.1" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/drawable/background_1.xml" value="0.22552083333333334" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/StudioProjects/SOCA/app/src/main/res/layout/activity_main.xml" value="0.20353982300884957" />

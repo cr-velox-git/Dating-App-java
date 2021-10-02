@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.silverphoenix.soca.DBQuery.DBQueries;
 import com.silverphoenix.soca.R;
 import com.yuyakaido.android.cardstackview.CardStackLayoutManager;
 import com.yuyakaido.android.cardstackview.CardStackListener;
@@ -41,6 +42,7 @@ public class MatchingFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_matching, container, false);
+        DBQueries.CURRENT_MAIN_FRAGMENT = DBQueries.MATCH_FRAGMENT;
 
         refreshImg = view.findViewById(R.id.fm_refresh);
         dislikeImg = view.findViewById(R.id.fm_dislike);
